@@ -4,7 +4,7 @@
 
 ## Examples:
 
-const data = new GetFeature(someJson);
+const data = new GetFeature(WFSformattedJOSN);
 
 data.getAllFeatures();
 
