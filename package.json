@@ -1,0 +1,17 @@
+{
+  "name": "schuelerbewertung",
+  "version": "1.0.0",
+  "description": "Eine App zum bewerten von Schuelern",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:test": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "Chris Pint",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
